@@ -87,7 +87,7 @@ docker run --rm -p 8000:8000 testapi
    - name: Say Hello
      run: echo "Hello from ${{ github.actor }}!"
    ```
-
+        
 ### Lab 3b — Secrets & Environment Variables
 1. Add repo secret `MY_SECRET_MESSAGE` = `Hello from secret!`
 2. Add step using secret as env:
